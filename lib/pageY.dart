@@ -17,6 +17,7 @@ class _PageYState extends State<PageY> {
           ElevatedButton(
               onPressed: (){
                 Navigator.of(context).popUntil((route) => route.isFirst);
+                //back butonun direk ana sayfaya gitmesi sağlanabilir mi? appbardaki araştır..
               }, 
               child: const Text("Ana Sayfaya Geri Dön")
             )
